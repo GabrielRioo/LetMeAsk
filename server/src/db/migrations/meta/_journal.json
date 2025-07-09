@@ -8,6 +8,13 @@
       "when": 1752017439947,
       "tag": "0000_powerful_ghost_rider",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752027238054,
+      "tag": "0001_closed_umar",
+      "breakpoints": true
     }
   ]
 }

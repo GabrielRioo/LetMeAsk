@@ -1,9 +1,21 @@
 @baseUrl = http://localhost:3333
 
-##Health check
-GET {{{baseUrl}}}/health
+## Health check
+GET {{baseUrl}}/health
 
 ###
 
-#Get rooms
+# Get rooms
 GET {{baseUrl}}/rooms
+
+###
+
+# Create rooms
+POST {{baseUrl}}/rooms
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Sala de teste",
+  "Description": "Essa é uma sala de teste"
+}
